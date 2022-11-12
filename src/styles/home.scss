@@ -1,0 +1,14 @@
+.container-login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    color: rgb(181, 154, 134);
+    font-weight: 900;
+  }
+}

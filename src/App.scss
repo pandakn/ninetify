@@ -1,0 +1,23 @@
+body {
+  background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 45%, rgba(215,192,174,1) 100%);
+}
+
+.wrap {
+  display: flex;
+  max-width: 1200px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin: 32px auto;
+
+  .logout {
+    padding: 8px 12px;
+    border-color: transparent;
+    border-radius: 12px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
